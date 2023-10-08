@@ -14,6 +14,7 @@
 		C5EEDFA92AD2AD9B0013D776 /* WaveformProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EEDFA82AD2AD9B0013D776 /* WaveformProvider.swift */; };
 		C5EEDFAC2AD2C7C80013D776 /* ECGWaveformConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EEDFAB2AD2C7C80013D776 /* ECGWaveformConfiguration.swift */; };
 		C5EEDFAE2AD2C7E80013D776 /* ECGStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EEDFAD2AD2C7E80013D776 /* ECGStatusBar.swift */; };
+		C5EEDFB02AD2EEF70013D776 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C5EEDFAF2AD2EEF70013D776 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C5EEDFA82AD2AD9B0013D776 /* WaveformProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformProvider.swift; sourceTree = "<group>"; };
 		C5EEDFAB2AD2C7C80013D776 /* ECGWaveformConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECGWaveformConfiguration.swift; sourceTree = "<group>"; };
 		C5EEDFAD2AD2C7E80013D776 /* ECGStatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECGStatusBar.swift; sourceTree = "<group>"; };
+		C5EEDFAF2AD2EEF70013D776 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		C5032C682AD2139200144C1D = {
 			isa = PBXGroup;
 			children = (
+				C5EEDFAF2AD2EEF70013D776 /* README.md */,
 				C5032C732AD2139300144C1D /* SwiftUI ECG Status Animation */,
 				C5032C722AD2139300144C1D /* Products */,
 			);
@@ -144,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5EEDFB02AD2EEF70013D776 /* README.md in Resources */,
 				C5032C7D2AD2139400144C1D /* Preview Assets.xcassets in Resources */,
 				C5032C792AD2139400144C1D /* Assets.xcassets in Resources */,
 			);
