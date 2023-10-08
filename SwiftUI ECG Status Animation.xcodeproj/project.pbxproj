@@ -11,6 +11,9 @@
 		C5032C772AD2139300144C1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5032C762AD2139300144C1D /* ContentView.swift */; };
 		C5032C792AD2139400144C1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5032C782AD2139400144C1D /* Assets.xcassets */; };
 		C5032C7D2AD2139400144C1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5032C7C2AD2139400144C1D /* Preview Assets.xcassets */; };
+		C5EEDFA92AD2AD9B0013D776 /* WaveformProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EEDFA82AD2AD9B0013D776 /* WaveformProvider.swift */; };
+		C5EEDFAC2AD2C7C80013D776 /* ECGWaveformConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EEDFAB2AD2C7C80013D776 /* ECGWaveformConfiguration.swift */; };
+		C5EEDFAE2AD2C7E80013D776 /* ECGStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EEDFAD2AD2C7E80013D776 /* ECGStatusBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		C5032C782AD2139400144C1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5032C7A2AD2139400144C1D /* SwiftUI_ECG_Status_Animation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_ECG_Status_Animation.entitlements; sourceTree = "<group>"; };
 		C5032C7C2AD2139400144C1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5EEDFA82AD2AD9B0013D776 /* WaveformProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformProvider.swift; sourceTree = "<group>"; };
+		C5EEDFAB2AD2C7C80013D776 /* ECGWaveformConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECGWaveformConfiguration.swift; sourceTree = "<group>"; };
+		C5EEDFAD2AD2C7E80013D776 /* ECGStatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECGStatusBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 			children = (
 				C5032C742AD2139300144C1D /* SwiftUI_ECG_Status_AnimationApp.swift */,
 				C5032C762AD2139300144C1D /* ContentView.swift */,
+				C5EEDFAD2AD2C7E80013D776 /* ECGStatusBar.swift */,
+				C5EEDFAA2AD2ADCF0013D776 /* WaveformProvider */,
 				C5032C782AD2139400144C1D /* Assets.xcassets */,
 				C5032C7A2AD2139400144C1D /* SwiftUI_ECG_Status_Animation.entitlements */,
 				C5032C7B2AD2139400144C1D /* Preview Content */,
@@ -67,6 +75,15 @@
 				C5032C7C2AD2139400144C1D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5EEDFAA2AD2ADCF0013D776 /* WaveformProvider */ = {
+			isa = PBXGroup;
+			children = (
+				C5EEDFA82AD2AD9B0013D776 /* WaveformProvider.swift */,
+				C5EEDFAB2AD2C7C80013D776 /* ECGWaveformConfiguration.swift */,
+			);
+			path = WaveformProvider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +158,9 @@
 			files = (
 				C5032C772AD2139300144C1D /* ContentView.swift in Sources */,
 				C5032C752AD2139300144C1D /* SwiftUI_ECG_Status_AnimationApp.swift in Sources */,
+				C5EEDFA92AD2AD9B0013D776 /* WaveformProvider.swift in Sources */,
+				C5EEDFAC2AD2C7C80013D776 /* ECGWaveformConfiguration.swift in Sources */,
+				C5EEDFAE2AD2C7E80013D776 /* ECGStatusBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
